@@ -65,7 +65,15 @@ function Login() {
       <h1>Login</h1>
       <form className="login" onSubmit={handleLogin}>
         <div>
-          <BiUser style={{marginLeft: "1.1rem", marginTop:"13px", position: "absolute", color:"whitesmoke", fontSize: "18px"}}/>
+          <BiUser
+            style={{
+              marginLeft: "1.1rem",
+              marginTop: "13px",
+              position: "absolute",
+              color: "whitesmoke",
+              fontSize: "18px",
+            }}
+          />
           <input
             className="username"
             type="text"
@@ -73,11 +81,18 @@ function Login() {
             value={username}
             onChange={handleChangeUser}
           />
-          
         </div>
 
         <div>
-          <AiFillLock style={{marginLeft: "1.1rem", marginTop:"12px", position: "absolute", color:"whitesmoke", fontSize: "18px"}}/>
+          <AiFillLock
+            style={{
+              marginLeft: "1.1rem",
+              marginTop: "12px",
+              position: "absolute",
+              color: "whitesmoke",
+              fontSize: "18px",
+            }}
+          />
           <input
             className="password"
             type="password"
@@ -85,7 +100,6 @@ function Login() {
             value={password}
             onChange={handleChangePass}
           />
-          
         </div>
 
         <button className="login-btn">Log-in</button>
