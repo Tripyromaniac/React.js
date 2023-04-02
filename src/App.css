@@ -1,0 +1,103 @@
+* {
+  font-family: "Poppins";
+  font-weight: normal;
+}
+body {
+  background-image: url("./pic/dusk.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.cover {
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  top: 25%;
+  left: 40%;
+  text-align: center;
+}
+
+form input {
+  position: relative;
+  height: 45px;
+  width: 88%;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  padding: 0 0 0 45px;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+::placeholder {
+  color: whitesmoke;
+  opacity: 0.8;
+}
+
+h1 {
+  padding-bottom: 5px;
+  color: whitesmoke;
+  font-size: 35px;
+}
+
+h2 {
+  padding-bottom: 15px;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.remember {
+  display: inline-block;
+}
+
+.forget {
+  display: inline-block;
+}
+
+AiFillLock,
+BiUser {
+  position: absolute;
+  display: inline-block;
+  margin-left: 1rem;
+  color: #fff;
+}
+
+button {
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  height: 45px;
+  outline: none;
+  width: 100%;
+  color: black;
+  background: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form input:hover,
+button:hover {
+  box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.utilities {
+  margin-top: 20px;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.forget,
+.remember {
+  position: relative;
+  width: 50%;
+}
+
+.forget a {
+  color: whitesmoke;
+  text-decoration: none;
+}
